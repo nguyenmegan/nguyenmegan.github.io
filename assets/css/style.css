@@ -1,0 +1,284 @@
+.nb {
+    color: white;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    z-index: 100;
+    transition: 0.1s;
+    position: relative;
+    top: 32%;
+    display: inline;
+    text-decoration: none;
+    margin: 0 24px;
+}
+
+.nb:hover {
+    color:#fee198;
+    transition: 0.1s;
+}
+
+.nb:active {
+    color:#fee198;
+}
+
+#megan {
+    font-size: 100px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 600;
+    line-height: 0.7;
+    color: #fee198;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+#blurb1 {
+    font-family: 'ff-market-web';
+    cursive;
+    font-size: 48px;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+}
+
+#black-bar {
+    height: 48px;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 10;
+}
+
+nav {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 48px;
+    top: 0;
+    z-index: 98;
+}
+
+#s1 {
+    background: url('../img/campanile.jpg');
+    background-size: cover;
+    z-index: -1;
+}
+
+#portfolio-word {font-family: 'ff-market-web',cursive;font-size: 84px;text-align: center;}
+
+#contact-me {font-family: "ff-market-web",cursive;font-size: 84px;text-align: center;}
+
+#about-me {font-family: 'ff-market-web', cursive;font-size: 48px;text-align: center;color: black;}
+
+#desc {
+    font-family: 'proxima-nova', sans-serif;
+    margin: 12px 25%;
+    line-height: 2em;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black;
+}
+
+.project {
+    width: 228px;
+    height: 228px;
+    background-color: white;
+    position: relative;
+    background: url(../img/gushers.jpg) center 50%;
+    bottom: 75%;
+    display: inline-block;
+    top: 0%;
+    margin: 12px;
+}
+
+.left {
+    width: 8.33333%;
+    height: 200vh;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+}
+
+.textbox {
+    margin-left: 25%;
+    margin-right: 25%;
+    z-index: 100;
+    position: relative;
+    bottom: 38%;
+    color: white;
+}
+
+.title {font-family: 'ff-market-web',cursive;font-size: 48px;margin: 24px 0;color: #FEE198;}
+
+.date {font-family: 'proxima nova',sans-serif;font-weight: 700;letter-spacing: 1px;}
+
+.desc {font-family: 'proxima-nova',sans-serif;line-height: 2em;letter-spacing: 1px;}
+
+.slide {
+    opacity: 0.85;
+    z-index: -1;
+}
+
+.lbackground {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    z-index: -5;
+}
+
+.right {
+    width: 51%;
+    height: 100vh;
+    position: relative;
+    bottom: 0;
+    left: 49%;
+}
+
+.rbackground {width: 100%;height: 100%;background-color: black;float: left;}
+
+.photo {
+    height: 496px;
+    width: 472px;
+    position: absolute;
+    top: 22.5%;
+    left: 6%;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+    transform: rotate(4deg);
+}
+
+
+.pic {
+    height: 384px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    background: url('../img/campanile.jpg') center 50%;
+    background-size: cover;
+}
+
+#overlay {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.4;
+}
+
+
+@font-face {
+  font-family: 'simple-line-icons';
+  src: url('../fonts/Simple-Line-Icons.eot?v=2.3.1');
+  src: url('../fonts/Simple-Line-Icons.eot?v=2.3.1#iefix') format('embedded-opentype'), url('../fonts/Simple-Line-Icons.woff2?v=2.3.1') format('woff2'), url('../fonts/Simple-Line-Icons.woff?v=2.3.1') format('woff'), url('../fonts/Simple-Line-Icons.ttf?v=2.3.1') format('truetype'), url('../fonts/Simple-Line-Icons.svg?v=2.3.1#simple-line-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#social {
+    color: transparent;
+    position: absolute;
+    bottom: 0;
+    right: 72px;
+    z-index: 999;
+}
+
+.ic {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.z:hover {
+    color: #fee198;
+    transition: 0.1s;
+}
+
+#iconz {
+    padding: 0;
+}
+
+.icons {
+    margin: 12px;
+    display: inline-block;
+}
+
+#arrow {
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+#arrow-font {
+    font-size: 48px;
+    color: white;
+}
+
+.active {
+    color: #fee198;
+}
+
+#textbox2 {
+    color: white;
+    padding: 144px 0;
+}
+
+#s2 {
+    background-color: white;
+    opacity: 0.85;
+    z-index: -2;
+}
+
+#footer-box {
+    height: 72px;
+    background-color: black;
+}
+
+#footer-text {
+    position: relative;
+    color: white;
+    font-family: 'proxima nova', sans-serif;
+    letter-spacing: 1px;
+    top: 30px;
+    left: 12.5%;
+    font-size: 12px;
+}
+
+#megan:hover {
+    font-size: 106px;
+    transition: 0.3s;
+}
+
+#bearmaps-pic {
+    background: url('../img/maps.png') center 50%;
+    background-size: cover;
+}
+
+#battleships-pic {
+    background: url('../img/editor.png') no-repeat center 50%;
+    background-size: contain;
+}
+
+#planets-pic {
+    background: url('../img/planets.png') center 50%;
+    background-size: cover;
+}
+
+#scheme-pic {
+    background: url('../img/scheme.png') center 50%;
+    background-size: cover;
+}
+
+#editor-pic {
+    background: url('../img/voronoi.png') center 50%;
+    background-size: cover;
+}
+
+#yelp-pic {
+    background: url('../img/battle.png') center 50%;
+    background-size: contain;
+}
