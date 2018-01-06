@@ -1,8 +1,7 @@
-/* Extra small devices (portrait phones, less than 576px) */
-
-@media (max-width: 575.99px) {
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
     #intro {
-        font-size: 37px !important;
+        font-size: 36px !important;
     }
 
     .container {
@@ -10,57 +9,10 @@
         padding-left: 25px !important;
     }
 
-    .project-img {
-        max-width: 270px;
-    }
-}
-
-
-/* Small devices (landscape phones, less than 768px) */
-
-@media (max-width: 767.99px) {
-    #intro {
-        font-size: 36px !important;
-    }
-
-    #get-in-touch {
-        font-size: 18px !important;
-        top: 400px !important;
-    }
-
     .heading {
         margin-bottom: 10px;
         font-size: 18px;
-    }
-
-    .section {
-        padding: 16px 0 !important;
-        margin: 24px 0 !important;
-    }
-
-    .category ul {
-        margin-top: 0 !important;
-    }
-
-    .category {
-        max-width: 45%;
-    }
-
-    #myBtn {
-        bottom: 20px !important;
-        right: 30px !important;
-    }
-
-    #seeking {
-        font-size: 15px !important;
-    }
-
-    #green-dot {
-        margin-right: 0 !important;
-    }
-
-    #proj2 {
-        margin: 20px -15px !important;
+        text-align: left !important;
     }
 
     #foot-text {
@@ -76,32 +28,75 @@
         font-size: 22px !important;
     }
 
+    #get-in-touch {
+        font-size: 18px !important;
+        bottom: -100px !important;
+        position: absolute;
+    }
+
+    #landing {
+        padding-top: 0 !important;
+    }
+
     .project-img {
-        max-width: 300px !important;
+        max-width: 275px !important;
+    }
+
+    #proj2 {
+        margin: 20px -15px !important;
+    }
+    .category {
+        max-width: 50%;
     }
 }
-
-
-/* Medium devices (tablets, less than 992px) */
-
-@media (max-width: 991.99px) {
-    .project-img {
-        max-width: 600px !important;
-        margin-top: 30px;
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #intro {
+        font-size: 36px !important;
     }
-}
 
+    .section {
+        padding: 16px 0 !important;
+        margin: 24px 0 !important;
+    }
 
-/* Large devices (desktops, less than 1200px) */
+    .category ul {
+        margin-top: 0 !important;
+    }
 
-@media (max-width: 1199.99px) {
-    .project-img {
-        max-width: 500px;
+    .category {
+        font-size: 14px !important;
+    }
+
+    #myBtn {
+        bottom: 20px !important;
+        right: 30px !important;
+    }
+
+    #seeking {
+        font-size: 15px !important;
+    }
+
+    #green-dot {
+        margin-right: 0 !important;
     }
 
     #projects .heading {
         text-align: left !important;
     }
+    .project-img {
+        margin-top: 30px;
+    }
+}
+/* tablets/desktops and up ———– */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #intro {
+        font-size: 36px !important;
+    }
+}
+/* large desktops and up ———– */
+@media screen and (min-width: 1200px) {
+
 }
 
 body {
@@ -109,12 +104,11 @@ body {
 }
 
 #landing {
-    padding-top: 17%;
-    position: relative;
+    padding-top: 50px;
 }
 
 #intro {
-    font-size: 74px;
+    font-size: 55px;
     display: -webkit-box;
     display: -ms-flexbox;
     -webkit-box-orient: vertical;
@@ -125,13 +119,10 @@ body {
     justify-content: space-around;
     max-width: 1440px;
     margin: 50px auto;
-    position: absolute;
 }
 
 #get-in-touch {
-    font-size: 30px;
-    position: absolute;
-    top: 700px;
+    font-size: 24px;
     font-family: 'Inconsolata', monospace;
     font-weight: bold;
 }
@@ -142,6 +133,7 @@ body {
 
 #background {
     padding-top: 50px;
+    position: relative;
 }
 
 #seeking {
@@ -253,7 +245,7 @@ body {
 }
 
 .project-img {
-    max-height: 375px;
+    max-width: 550px;
 }
 
 .project-tool {
