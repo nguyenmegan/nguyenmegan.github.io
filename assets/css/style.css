@@ -192,6 +192,7 @@ body {
     font-weight: 600;
     text-align: right;
     letter-spacing: 1px;
+    font-size: 14px;
 }
 
 .section {
@@ -240,8 +241,13 @@ body {
     font-size: 22px;
 }
 
+#other-projects .project {
+    margin-top: 0;
+}
+
 .project {
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .project-img {
