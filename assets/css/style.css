@@ -143,19 +143,19 @@ body {
     font-size: 18px;
 }
 
-#green-dot {
+#red-dot {
     margin-right: 20px;
     display: inline-block;
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    background: #bada55;
+    background: #ED4F30;
     cursor: pointer;
     box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
     animation: pulse 2s infinite;
 }
 
-#green-dot:hover {
+#red-dot:hover {
     animation: none;
 }
 
